@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pcss.css">
+    <script defer src="animation.js"></script>
+    
+
+
+    <title>PERSONAL WEBSITE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="site-container">
+   
+    <div class="nav">
+        <div class="wrap">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <ul class="menu">
+                <li><a href="pweb.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallary.html">Galary</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Register.html">HIRE</a></li>
+                
+            </ul>
+        </div>
+      </div>
+ <!-- content -->
+       <div class="wrapper">
+            
+<div class="cover">
+<img src="cov.JPG" alt="">
+</div>
+
+
+    <div class="content" >
+        <h4 >Hello, my name is</h4>
+        <h1>Mark Daniel Sy</h1>
+        <h3>Photographer | Traveller</h3>
+        <div class="hidden">
+        <div class="newslatter" >
+            <form id="form">
+                <input type="email" name="email" for="mail" placeholder="Enter Your Email">
+                <input type="submit" name="submit" id="start" value="Let's Start">
+               
+    
+            </form>
+            <script>
+              const form=document.getElementById('form');
+              const b1=document.getElementById('start');
+              const out1=document.getElementById('');
+
+              form.addEventListener('submit',function(e){
+                   e.preventDefault();
+
+                   const mailValue = mail.value;
+
+                   localStorage.setItem('mail',mailValue);
+              })
+
+
+              
+            
+            </script>
+            
+        </div>
+        </div>
+    </div>
+
+    <div id="content-left" class="hidden">
+                  <a href="#"><img src="dan.jpeg" alt="photo"></a>
+            </div>
+            <div id="content-right" class="hidden">
+                <a href=""><h2>INTRODUCING</h2></a>
+                <a href="#" id="comments"> MARK DANIEL SY</a>
+                <h2 id="visual"> Visual Merchandiser & Photographer</h2>
+                  <p id="article">
+                  “I’ve always been drawn to storytelling, even before I picked up a camera.”
+                  </p>
+                  <div id="read-more">
+                     <a href="#">Interview</a>
+                  </div>
+            </div>
+ </div>
+
+<!-- this is images-->
+<div class="hidden">
+<div class="box2" >
+
+<h2 id="new" class="hidden">NEW</h2>
+   <div class="box4" >
+  <div class="box3"><img src="portfolio/b.jpg"> </div>
+  <div class="box3"><img src="portfolio/c.jpg"> </div>
+  <div class="box3"><img src="portfolio/d.jpg"> </div>
+  <div class="box3"><img src="portfolio/e.jpg"> </div>
+  <div class="box3"><img src="portfolio/f.jpg"> </div>
+  <div class="box3"><img src="portfolio/g.jpg"> </div>
+  </div>
+</div>
+</div>
+
+
+<!---service section start-->
+<div class="service">
+<div class="title">
+    <h2 class="hidden">My service</h2>
+</div>
+
+<div class="hidden">
+<div class="box" >
+
+
+
+    <div class="card" >
+
+        <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4.75a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 1 0 0-6.5z"></path>
+            <path d="M6.848 19.25h10.305c1.141 0 2.021-.982 1.488-1.992C17.856 15.773 16.068 14 12 14s-5.856 1.773-6.64 3.258c-.534 1.01.346 1.992 1.487 1.992Z"></path>
+          </svg>
+
+
+
+        <h5>LAYOUT</h5>
+        <div class="pra">
+            <p>  I have skills in layouting Brosures,Magazines,Newspaper
+              Invitation,Tarpaulin,Logos and many more....
+               </p>
+      
+        </div>
+        <p style="text-align: center;">
+            <a href="#" class="button">read more</a>
+        </p>
+    </div>
+
+    <div class="card" >
+
+
+        <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.75 7.75h10.5a1 1 0 0 1 1 1v10.5"></path>
+            <path d="M19.25 16.25H8.75a1 1 0 0 1-1-1V4.75"></path>
+          </svg>
+
+
+        <h5>PHOTOGRAPHY</h5>
+        <div class="pra">
+            <p> You will also Hire as your personal Photographer in weddings,
+              birthday and many occations or none occational. 
+            </p>
+        
+        </div>
+        <p style="text-align:center;">
+            <a href="#" class="button">read more</a>
+        </p>
+    </div>
+
+
+
+    <div  class="card">
+
+        <svg width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <rect width="14.5" height="14.5" x="4.75" y="4.75" rx="2"></rect>
+            <path d="m8.75 10.75 2.5 2.25-2.5 2.25"></path>
+          </svg>
+
+
+
+        <h5>VIDEO</h5>
+        <div class="pra">
+            <p>I have knowledge in Making Video like Weddings, School Activities, 
+              Film Making and many more..... 
+            </p>
+
+        
+        </div>
+        <p style="text-align:center;">
+            <a href="#" class="button">read more</a>
+        </p>
+    </div>
+</div>
+</div>
+
+<!--Contact Me-->
+<div class="contactme" >
+<p class="hidden"> EXPLORE WITH ME</p>
+<a href="Register.html" class="buttoncontact"> HIRE ME</a>
+</div>
+
+ 
+</div>
+  <!-- footer -->
+        <div class="footer">
+             
+              <div class="wrap">
+                <div class="widget-input-section">
+               
+                  <div class="pics" 
+                  
+                  style="
+                  
+                  display: block; 
+                  padding: 40px;">
+
+
+                     <a  href="https://mail.google.com/mail/u/0/?pli=1"target="_blank"><img src="socials/email.png" alt="" style="border: 3px solid white; margin:10px; padding:10px; " ></a>
+                     <a  href="https://www.facebook.com/markdaniel.sy.7"target="_blank"><img src="socials/facebook.png" alt="" style="border: 3px solid white;margin:10px; padding:10px;" ></a>
+                     <a  href="https://www.instagram.com/_sydan290/"target="_blank"><img src="socials/instagram.png" alt="" style="border: 3px solid white;margin:10px; padding:10px;" ></a>
+                     <a  href="https://www.pinterest.ph/"target="_blank"><img src="socials/pinterest.png" alt="" style="border: 3px solid white;margin:10px; padding:10px;"></a>
+                     <a  href="https://twitter.com/Danielsy0607"target="_blank"> <img src="socials/twitter.png" alt=""style="border: 3px solid white;margin:10px; padding:10px;" ></a>
+                    </div>
+
+                  <form action="Register.html" >
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="text" placeholder="Email">
+                    <input id="subbutton" type="submit" value="GO">
+                  </form>
+                </div>
+              </div>
+            
+            <div class="site-footer">
+              <div class="wrapper">
+                <div class="credentials">
+                  <p>
+                    Copyright ⓒ  2022. 
+                    
+                  </p>
+                  <a href="pro.php" style="color:black; margin: 20px;">Logout</a>
+                </div>
+              </div>
+            </div> 
+        </div> 
+      
+</div>
+    
+</body>
+</html>
